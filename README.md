@@ -8,7 +8,9 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 
 ## planned stuff
 
-8 brick -> Brick Oven
+6 brick + 3 iron -> Cooktop
+
+In the cooktop, you combine a base + filling + topping to get a food, ex. pastry dough + chocolate + sugar -> chocolate croissants
 
 seeds -> Seed Oil
 
