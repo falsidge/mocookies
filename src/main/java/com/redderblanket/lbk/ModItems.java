@@ -5,7 +5,6 @@ import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -37,8 +36,8 @@ public class ModItems {
 
     public static void init() {
 
-        // Add food items to food group (in creative menu).
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(itemGroup -> {
+        // Add food items to dedicate creative mode tab.
+        ItemGroupEvents.modifyEntriesEvent(EntrypointMain.CREATIVE_TAB).register(itemGroup -> {
 
             itemGroup.add(BURGER);
             itemGroup.add(SWEET_BERRY_TART);
