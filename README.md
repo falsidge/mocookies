@@ -6,7 +6,15 @@ I am still learning and this mod is probably gonna be. so gross but it's ok how 
 
 Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 
-## planned stuff
+## Recipes
+
+### Crafting table
+
+| Ingredients | Result |
+| --- | --- |
+| Wheat x3, Seed Oil, Sugar | Pastry Dough |
+
+## Planned
 
 6 brick + 3 iron -> Cooktop
 
@@ -15,7 +23,5 @@ In the cooktop, you combine a base + filling + topping to get a food, ex. pastry
 seeds -> Seed Oil
 
 seed oil + wheat + water + beet -> Beet Focaccia
-
-seed oil + sugar + wheat -> Pastry Dough
 
 pizza? beet icecream? ooo I'm gonna add chocolate croissants
