@@ -14,4 +14,6 @@ seeds -> Seed Oil
 
 seed oil + wheat + water + beet -> Beet Focaccia
 
-pizza? beet icecream?
+seed oil + sugar + wheat -> Pastry Dough
+
+pizza? beet icecream? ooo I'm gonna add chocolate croissants
