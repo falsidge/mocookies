@@ -28,12 +28,45 @@ public class ModItems {
             "burger"
     );
 
+    public static final Item SWEET_BERRY_TART = register(
+            new Item(
+                    new Item.Settings()
+                            .maxCount(64)
+                            .food(
+                                    new FoodComponent.Builder()
+                                            .nutrition(6)
+                                            .saturationModifier(6)
+                                            .build()
+                            )
+            ),
+            "sweet_berry_tart"
+    );
+
+    public static final Item BEETROOT_TART = register(
+            new Item(
+                    new Item.Settings()
+                            .maxCount(64)
+                            .food(
+                                    new FoodComponent.Builder()
+                                            .nutrition(6)
+                                            .saturationModifier(6)
+                                            .build()
+                            )
+            ),
+            "beetroot_tart"
+    );
+
+    public static final Item SEED_OIL = register(new Item(new Item.Settings().maxCount(64)), "seed_oil");
+
     public static void init() {
 
         // Add food items to food group (in creative menu).
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(itemGroup -> {
 
             itemGroup.add(BURGER);
+            itemGroup.add(SWEET_BERRY_TART);
+            itemGroup.add(BEETROOT_TART);
+            itemGroup.add(SEED_OIL);
         });
     }
 
