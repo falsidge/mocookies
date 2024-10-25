@@ -28,35 +28,12 @@ public class ModItems {
             "burger"
     );
 
-    public static final Item SWEET_BERRY_TART = register(
-            new Item(
-                    new Item.Settings()
-                            .maxCount(64)
-                            .food(
-                                    new FoodComponent.Builder()
-                                            .nutrition(6)
-                                            .saturationModifier(6)
-                                            .build()
-                            )
-            ),
-            "sweet_berry_tart"
-    );
-
-    public static final Item BEETROOT_TART = register(
-            new Item(
-                    new Item.Settings()
-                            .maxCount(64)
-                            .food(
-                                    new FoodComponent.Builder()
-                                            .nutrition(6)
-                                            .saturationModifier(6)
-                                            .build()
-                            )
-            ),
-            "beetroot_tart"
-    );
+    public static final Item SWEET_BERRY_TART = registerFood("sweet_berry_tart", 6, 8);
+    public static final Item BEETROOT_TART = registerFood("beetroot_tart", 6, 8);
+    public static final Item CHOCOLATE_CROISSANT = registerFood("chocolate_croissant", 4, 6);
 
     public static final Item SEED_OIL = register(new Item(new Item.Settings().maxCount(64)), "seed_oil");
+    public static final Item PASTRY_DOUGH = register(new Item(new Item.Settings().maxCount(64)), "pastry_dough");
 
     public static void init() {
 
@@ -66,11 +43,35 @@ public class ModItems {
             itemGroup.add(BURGER);
             itemGroup.add(SWEET_BERRY_TART);
             itemGroup.add(BEETROOT_TART);
+            itemGroup.add(CHOCOLATE_CROISSANT);
+
             itemGroup.add(SEED_OIL);
+            itemGroup.add(PASTRY_DOUGH);
         });
     }
 
-    public static Item register(Item item, String stringID) {
+
+
+    private static Item registerFood(String stringID, int nutrition, int saturation) {
+
+        // steak gives 8 nutrition and 12.8 saturation
+
+        return register(
+                new Item(
+                        new Item.Settings()
+                                .maxCount(64)
+                                .food(
+                                        new FoodComponent.Builder()
+                                                .nutrition(nutrition)
+                                                .saturationModifier(saturation)
+                                                .build()
+                                )
+                ),
+                stringID
+        );
+    }
+
+    private static Item register(Item item, String stringID) {
 
         // Create the identifier for the item.
         Identifier itemID = Identifier.of(EntrypointMain.MOD_ID, stringID);

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:wheat" },
+    { "item": "minecraft:wheat" },
+    { "item": "minecraft:wheat" },
+    { "item": "lbk:seed_oil" },
+    { "item": "minecraft:sugar" }
+  ],
+  "result": {
+    "id": "lbk:pastry_dough",
+    "count": 4
+  }
+}
