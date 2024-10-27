@@ -20,8 +20,8 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 
 In the cooktop, you combine a base + filling + topping to get a food, ex. pastry dough + chocolate + sugar -> chocolate croissants
 
-seeds -> Seed Oil
+seeds -> Seed Oil (may or may not replace seed oil in recipes with egg)
 
 seed oil + wheat + water + beet -> Beet Focaccia
 
-pizza? beet icecream? ooo I'm gonna add chocolate croissants
+pizza? beet icecream? chocolate croissants? choco bar?
