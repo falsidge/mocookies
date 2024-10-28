@@ -11,6 +11,14 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    // setting a pan's .recipeRemainder(PAN) to itself, so that it returns in recipes, is... tricky
+    public static final Item PAN = register(
+            new Item(
+                    new Item.Settings().maxCount(1)
+            ),
+            "pan"
+    );
+
     public static final Item BURGER = register(
             new Item(
                 new Item.Settings()
@@ -29,9 +37,10 @@ public class ModItems {
 
     public static final Item SWEET_BERRY_TART = registerFood("sweet_berry_tart", 6, 8);
     public static final Item BEETROOT_TART = registerFood("beetroot_tart", 6, 8);
+    public static final Item CHOCOLATE = registerFood("chocolate", 2, 6);
+    public static final Item CHOCOLATE_EGG = registerFood("chocolate_egg", 4, 6);
     public static final Item CHOCOLATE_CROISSANT = registerFood("chocolate_croissant", 4, 6);
 
-    public static final Item SEED_OIL = register(new Item(new Item.Settings().maxCount(64)), "seed_oil");
     public static final Item PASTRY_DOUGH = register(new Item(new Item.Settings().maxCount(64)), "pastry_dough");
 
     public static void init() {
@@ -39,12 +48,16 @@ public class ModItems {
         // Add food items to dedicate creative mode tab.
         ItemGroupEvents.modifyEntriesEvent(EntrypointMain.CREATIVE_TAB).register(itemGroup -> {
 
+            itemGroup.add(PAN);
+
             itemGroup.add(BURGER);
+
             itemGroup.add(SWEET_BERRY_TART);
             itemGroup.add(BEETROOT_TART);
+            itemGroup.add(CHOCOLATE);
+            itemGroup.add(CHOCOLATE_EGG);
             itemGroup.add(CHOCOLATE_CROISSANT);
 
-            itemGroup.add(SEED_OIL);
             itemGroup.add(PASTRY_DOUGH);
         });
     }

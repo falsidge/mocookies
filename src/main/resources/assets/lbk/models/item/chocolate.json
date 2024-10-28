@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lbk:item/seed_oil"
+    "layer0": "lbk:item/chocolate"
   }
 }

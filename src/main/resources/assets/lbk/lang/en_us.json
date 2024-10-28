@@ -1,9 +1,11 @@
 {
+  "item.lbk.pan": "Pan",
   "item.lbk.burger": "Burger",
   "item.lbk.sweet_berry_tart": "Sweet Berry Tart",
   "item.lbk.beetroot_tart": "Beetroot Tart",
+  "item.lbk.chocolate": "Chocolate",
+  "item.lbk.chocolate_egg": "Chocolate Egg",
   "item.lbk.chocolate_croissant": "Chocolate Croissant",
-  "item.lbk.seed_oil": "Seed Oil",
   "item.lbk.pastry_dough": "Pastry Dough",
 
   "block.lbk.test_block": "Test Block",

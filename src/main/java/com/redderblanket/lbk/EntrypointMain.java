@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 
 public class EntrypointMain implements ModInitializer {
 
-	public static final String MOD_ID = "lbk"; // Lil' Block Kitchen
+	public static final String MOD_ID = "lbk";
 
 	public static final RegistryKey<ItemGroup> CREATIVE_TAB = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(MOD_ID, "item_group"));
 
@@ -27,7 +27,7 @@ public class EntrypointMain implements ModInitializer {
 	// Proceed with mild caution.
 	public void onInitialize() {
 
-		// Initialize item group.
+		// Initialize item group (creative tab).
 		Registry.register(Registries.ITEM_GROUP, CREATIVE_TAB,
 				FabricItemGroup.builder()
 					.icon(() -> new ItemStack(ModItems.BURGER))
@@ -38,6 +38,6 @@ public class EntrypointMain implements ModInitializer {
 		ModItems.init();
 		ModBlocks.init();
 
-		LOGGER.info(MOD_ID + " has loaded.");
+		LOGGER.info("Lil' Block Kitchen has loaded.");
 	}
 }
