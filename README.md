@@ -13,17 +13,17 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 | Ingredients | Result |
 | --- | --- |
 | Wheat x3, Seed Oil, Sugar | Pastry Dough |
+| Milk Bucket, Sugar, Cocoa Beans | Chocolate |
+| Egg, Chocolate | Chocolate Egg |
 
-## Planned
+## Planned (maybe)
 
 6 brick + 3 iron -> Cooktop
 
 In the cooktop, you combine a base + filling + topping to get a food, ex. pastry dough + chocolate + sugar -> chocolate croissants
 
-seeds -> Seed Oil (may or may not replace seed oil in recipes with egg)
+wheat + water + beet -> Beet Focaccia?
 
-seed oil + wheat + water + beet -> Beet Focaccia
-
-egg + chocolate + frying pan -> chocolate egg
+If I can find out how to make a "Pan" item return itself in recipes that use it, I can have this Pan item (stick + iron) used for certain recipes like Breaded Chicken (pan + egg + bread + chicken)...
 
 pizza? beet icecream? chocolate croissants? chocolate (choco bar)?
