@@ -24,4 +24,6 @@ seeds -> Seed Oil (may or may not replace seed oil in recipes with egg)
 
 seed oil + wheat + water + beet -> Beet Focaccia
 
-pizza? beet icecream? chocolate croissants? choco bar?
+egg + chocolate + frying pan -> chocolate egg
+
+pizza? beet icecream? chocolate croissants? chocolate (choco bar)?
