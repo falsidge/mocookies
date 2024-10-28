@@ -20,14 +20,16 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 
 snowball + sugar + milk + beetroot -> Beet Icecream (maybe also chocolate)
 
-6 brick + 3 iron -> Cooktop
+wheat + egg + sugar + beetroot -> Beet Cake (four slices)
 
-In the cooktop, you combine a base + filling + topping to get a food, ex. pastry dough + chocolate + sugar -> chocolate croissants
+wheat + egg + sugar + carrot -> Carrot Cake
 
-wheat + water + beet -> Beet Focaccia?
+pastry dough + chocolate + sugar -> chocolate croissants
 
-If I can find out how to make a "Pan" item return itself in recipes that use it, I can have this Pan item (stick + iron) used for certain recipes like Breaded Chicken (pan + egg + bread + chicken)...
+pizza?
 
-pizza? chocolate croissants?
+---
+
+If I found out how to make a "Pan" item return itself in recipes that use it, I could have this Pan item (stick + iron) used for certain recipes like Breaded Chicken (pan + egg + bread + chicken)...
 
 genuinely no idea how mixins work, so I'll probably experiment with them in a blank project before trying to shoehorn them into this
