@@ -41,6 +41,7 @@ public class ModItems {
     public static final Item CHOCOLATE_EGG = registerFood("chocolate_egg", 4, 6);
     public static final Item CHOCOLATE_CROISSANT = registerFood("chocolate_croissant", 4, 6);
 
+    public static final Item DOUGH = register(new Item(new Item.Settings().maxCount(64)), "dough");
     public static final Item PASTRY_DOUGH = register(new Item(new Item.Settings().maxCount(64)), "pastry_dough");
 
     public static void init() {
@@ -58,6 +59,7 @@ public class ModItems {
             itemGroup.add(CHOCOLATE_EGG);
             itemGroup.add(CHOCOLATE_CROISSANT);
 
+            itemGroup.add(DOUGH);
             itemGroup.add(PASTRY_DOUGH);
         });
     }

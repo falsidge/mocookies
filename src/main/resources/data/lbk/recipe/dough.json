@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "pattern": [
+    "WWW"
+  ],
+  "key": {
+    "W": { "item": "minecraft:wheat" }
+  },
+  "result": {
+    "id": "lbk:dough",
+    "count": 3
+  }
+}
