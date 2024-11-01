@@ -39,10 +39,14 @@ public class ModItems {
     public static final Item BEETROOT_TART = registerFood("beetroot_tart", 6, 8);
     public static final Item CHOCOLATE = registerFood("chocolate", 2, 6);
     public static final Item CHOCOLATE_EGG = registerFood("chocolate_egg", 4, 6);
-    public static final Item CHOCOLATE_CROISSANT = registerFood("chocolate_croissant", 4, 6);
 
     public static final Item DOUGH = register(new Item(new Item.Settings().maxCount(64)), "dough");
     public static final Item PASTRY_DOUGH = register(new Item(new Item.Settings().maxCount(64)), "pastry_dough");
+
+    public static final Item COOKIE_PLAIN   = registerFood("cookie_plain", 4, 8);
+    public static final Item COOKIE_CREEPER = registerFood("cookie_creeper", 6, 10);
+    public static final Item COOKIE_EGG     = registerFood("cookie_egg", 6, 10);
+    public static final Item COOKIE_SWORD   = registerFood("cookie_sword", 6, 10);
 
     public static void init() {
 
@@ -57,10 +61,14 @@ public class ModItems {
             itemGroup.add(BEETROOT_TART);
             itemGroup.add(CHOCOLATE);
             itemGroup.add(CHOCOLATE_EGG);
-            itemGroup.add(CHOCOLATE_CROISSANT);
 
             itemGroup.add(DOUGH);
             itemGroup.add(PASTRY_DOUGH);
+
+            itemGroup.add(COOKIE_PLAIN);
+            itemGroup.add(COOKIE_CREEPER);
+            itemGroup.add(COOKIE_EGG);
+            itemGroup.add(COOKIE_SWORD);
         });
     }
 

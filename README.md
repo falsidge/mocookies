@@ -11,28 +11,44 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 
 ### Crafting table
 
-| Ingredients | Result |
-| --- | --- |
-| Wheat x3 | Dough |
-| Wheat x3, Seed Oil, Sugar | Pastry Dough |
-| Milk Bucket, Sugar, Cocoa Beans | Chocolate |
-| Egg, Chocolate | Chocolate Egg |
+| Ingredients                     | Result         |
+|---------------------------------|----------------|
+| **Misc**                        |
+| Wheat x3                        | Dough          |
+| Wheat x3, Egg, Sugar            | Pastry Dough   |
+| Milk Bucket, Sugar, Cocoa Beans | Chocolate      |
+| **Cookies**                     |
+| Egg, Chocolate                  | Chocolate Egg  |
+| Plain Cookie, Sugar, Lime Dye   | Creeper Cookie |
+| Plain Cookie, Sugar, White Dye  | Egg Cookie     |
+| Plain Cookie, Sugar, Cyan Dye   | Sword Cookie   |
 
 ### Furnace/Campfire
-| Input | Result |
-| --- | --- |
-| Dough | Bread |
+| Input        | Result       |
+|--------------|--------------|
+| Dough        | Bread        |
+| Pastry Dough | Plain Cookie |
 
 ## Planned (maybe)
 
+### Misc
+
+pride cookie with all dyes lol, also chocolate cookie
+
 snowball + sugar + milk + beetroot -> Beet Icecream (maybe also chocolate)
-
-wheat + egg + sugar + beetroot -> Beet Cake (four slices)
-
-wheat + egg + sugar + carrot -> Carrot Cake
-
-pastry dough + chocolate + sugar -> chocolate croissants
 
 pizza?
 
 If I found out how to make a "Pan" item return itself in recipes that use it, I could have this Pan item (stick + iron) used for certain recipes like Breaded Chicken (pan + egg + bread + chicken)...
+
+### Pies/Tarts
+
+Pastry Dough + Mould? Tray?
+
+### Cake
+
+2 sugar, 2 egg, 2 wheat, milk bucket -> batter bucket (smelt to make plain cake) 
+
+plain cake + sugar + beetroot -> Beet Cake (four slices)
+
+plain cake + sugar + carrot -> Carrot Cake (four slices)

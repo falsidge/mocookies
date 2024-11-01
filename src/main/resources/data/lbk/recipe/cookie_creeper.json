@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "lbk:cookie_plain" },
+    { "item": "minecraft:sugar" },
+    { "item": "minecraft:lime_dye" }
+  ],
+  "result": {
+    "id": "lbk:cookie_creeper",
+    "count": 1
+  }
+}
