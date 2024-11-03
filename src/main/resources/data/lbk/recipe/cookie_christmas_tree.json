@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "lbk:cookie_plain" },
+    { "item": "minecraft:sugar" },
+    { "item": "minecraft:green_dye" }
+  ],
+  "result": {
+    "id": "lbk:cookie_christmas_tree",
+    "count": 1
+  }
+}

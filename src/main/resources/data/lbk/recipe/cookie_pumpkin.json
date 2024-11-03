@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "lbk:cookie_plain" },
+    { "item": "minecraft:sugar" },
+    { "item": "minecraft:orange_dye" }
+  ],
+  "result": {
+    "id": "lbk:cookie_pumpkin",
+    "count": 1
+  }
+}

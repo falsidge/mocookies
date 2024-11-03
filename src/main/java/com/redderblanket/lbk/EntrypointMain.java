@@ -16,11 +16,9 @@ import org.slf4j.LoggerFactory;
 public class EntrypointMain implements ModInitializer {
 
 	public static final String MOD_ID = "lbk";
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	public static final RegistryKey<ItemGroup> CREATIVE_TAB = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(MOD_ID, "item_group"));
-
-	// This logger is used to write text to the console and the log file.
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	// This code runs as soon as Minecraft is in a mod-load-ready state.
 	// However, some things (like resources) may still be uninitialized.

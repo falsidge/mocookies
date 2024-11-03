@@ -19,25 +19,24 @@ public class ModBlocks {
 
     public static void init() {
 
-        // Add block items to dedicate creative mode tab.
-        ItemGroupEvents.modifyEntriesEvent(EntrypointMain.CREATIVE_TAB).register((itemGroup) -> {
-
-            itemGroup.add(TEST_BLOCK.asItem());
-        });
     }
-
-
 
     private static Block register(Block block, String name) {
 
+        // Create the identifier for the block.
         Identifier id = Identifier.of(EntrypointMain.MOD_ID, name);
 
-        // Register block item.
+        // Create block item.
         BlockItem blockItem = new BlockItem(block, new Item.Settings());
-        Registry.register(Registries.ITEM, id, blockItem);
 
-        // Register block.
-        return Registry.register(Registries.BLOCK, id, block);
+        // Register block and block item.
+        Registry.register(Registries.ITEM, id, blockItem);
+        Registry.register(Registries.BLOCK, id, block);
+
+        // Add block item to dedicate creative mode tab.
+        ItemGroupEvents.modifyEntriesEvent(EntrypointMain.CREATIVE_TAB).register((itemGroup) -> itemGroup.add(blockItem));
+
+        return block;
     }
 
 }
