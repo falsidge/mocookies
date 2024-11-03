@@ -22,9 +22,13 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
         <tr> <td>Milk Bucket, Sugar, Cocoa Beans</td> <td>Chocolate</td>      </tr>
         <tr> <td>Egg, Chocolate</td>                  <td>Chocolate Egg</td>  </tr>
         <tr> <th colspan=2>Cookies</th>                                       </tr>
-        <tr> <td>Plain Cookie, Sugar, Lime Dye</td>   <td>Creeper Cookie</td> </tr>
-        <tr> <td>Plain Cookie, Sugar, White Dye</td>  <td>Egg Cookie</td>     </tr>
-        <tr> <td>Plain Cookie, Sugar, Cyan Dye</td>   <td>Sword Cookie</td>   </tr>
+        <tr> <td>Plain Cookie, Sugar, Red Dye</td>    <td>Candy Cane Cookie</td>     </tr>
+        <tr> <td>Plain Cookie, Sugar, Green Dye</td>  <td>Christmas Tree Cookie</td> </tr>
+        <tr> <td>Plain Cookie, Sugar, Lime Dye</td>   <td>Creeper Cookie</td>        </tr>
+        <tr> <td>Plain Cookie, Sugar, White Dye</td>  <td>Egg Cookie</td>            </tr>
+        <tr> <td>Plain Cookie, Sugar, Orange Dye</td> <td>Pumpkin Cookie</td>        </tr>
+        <tr> <td>Plain Cookie, Sugar, Yellow Dye</td> <td>Star Cookie</td>           </tr>
+        <tr> <td>Plain Cookie, Sugar, Cyan Dye</td>   <td>Sword Cookie</td>          </tr>
     </tbody>
 </table>
 
