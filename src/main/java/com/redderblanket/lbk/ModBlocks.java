@@ -1,21 +1,16 @@
 package com.redderblanket.lbk;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block TEST_BLOCK = register(
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.GRASS)),
-            "test_block"
-    );
+    public static final Block BUSH_STRAWBERRY = register(new BlockBush(), "bush_strawberry");
 
     public static void init() {
 
@@ -33,7 +28,7 @@ public class ModBlocks {
         Registry.register(Registries.ITEM, id, blockItem);
         Registry.register(Registries.BLOCK, id, block);
 
-        // Add block item to dedicate creative mode tab.
+        // Add block item to dedicated creative mode tab.
         ItemGroupEvents.modifyEntriesEvent(EntrypointMain.CREATIVE_TAB).register((itemGroup) -> itemGroup.add(blockItem));
 
         return block;

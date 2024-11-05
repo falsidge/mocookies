@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lbk:block/bush_strawberry_fruiting"
+  }
+}
