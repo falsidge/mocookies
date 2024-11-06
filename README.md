@@ -5,7 +5,7 @@ A small Minecraft cooking mod that adds new cooking recipes, because steak kills
 Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 
 > [!NOTE]  
-> I am still learning and this mod is probably gonna be. so gross but it's ok how else do you learn. like genuinely no idea how mixins work, so I'll probably experiment with them in a blank project before trying to shoehorn them into this
+> I am still learning how to mod, and also have a lot of stress with managing projects like this. But that's OK! I'll get through it and make something nice from it too.
 
 ## Recipes
 
@@ -38,11 +38,11 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 | Dough        | Bread        |
 | Pastry Dough | Plain Cookie |
 
-## Planned (maybe)
+## Roadmap
 
-### Misc
+Clean up code/remove unused features; Have a good selection of simple foodstuffs to craft; Have bushes (strawberry, blueberry) fully implemented.
 
-pride cookie with all dyes lol, also chocolate cookie
+pride cookie with all dyes, also chocolate cookie
 
 snowball + sugar + milk + beetroot -> Beet Icecream (maybe also chocolate)
 
@@ -50,14 +50,6 @@ pizza?
 
 If I found out how to make a "Pan" item return itself in recipes that use it, I could have this Pan item (stick + iron) used for certain recipes like Breaded Chicken (pan + egg + bread + chicken)...
 
-### Pies/Tarts
+pastry dough + sugar + beetroot -> Beet Cake (four slices)
 
-Pastry Dough + Mould? Tray? -> Unbaked Pie Crust -> bake -> Pie Crust
-
-### Cake
-
-2 sugar, 2 egg, 2 wheat, milk bucket -> batter bucket (smelt to make plain cake) 
-
-plain cake + sugar + beetroot -> Beet Cake (four slices)
-
-plain cake + sugar + carrot -> Carrot Cake (four slices)
+pastry dough + sugar + carrot -> Carrot Cake (four slices)
