@@ -11,32 +11,44 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 
 ### Crafting table
 
-<table>
-    <thead>
-        <tr> <th>Ingredients</th> <th>Result</th> </tr>
-    </thead>
-    <tbody>
-        <tr> <th colspan=2>Misc</th>                                          </tr>
-        <tr> <td>Wheat x3</td>                        <td>Dough</td>          </tr>
-        <tr> <td>Wheat x3, Egg, Sugar</td>            <td>Pastry Dough</td>   </tr>
-        <tr> <td>Milk Bucket, Sugar, Cocoa Beans</td> <td>Chocolate</td>      </tr>
-        <tr> <td>Egg, Chocolate</td>                  <td>Chocolate Egg</td>  </tr>
-        <tr> <th colspan=2>Cookies</th>                                       </tr>
-        <tr> <td>Plain Cookie, Sugar, Red Dye</td>    <td>Candy Cane Cookie</td>     </tr>
-        <tr> <td>Plain Cookie, Sugar, Green Dye</td>  <td>Christmas Tree Cookie</td> </tr>
-        <tr> <td>Plain Cookie, Sugar, Lime Dye</td>   <td>Creeper Cookie</td>        </tr>
-        <tr> <td>Plain Cookie, Sugar, White Dye</td>  <td>Egg Cookie</td>            </tr>
-        <tr> <td>Plain Cookie, Sugar, Orange Dye</td> <td>Pumpkin Cookie</td>        </tr>
-        <tr> <td>Plain Cookie, Sugar, Yellow Dye</td> <td>Star Cookie</td>           </tr>
-        <tr> <td>Plain Cookie, Sugar, Cyan Dye</td>   <td>Sword Cookie</td>          </tr>
-    </tbody>
-</table>
+<details>
+<summary><strong>General</strong></summary>
+
+| Ingredients                     | Result        |
+|---------------------------------|---------------|
+| Wheat x3                        | Dough         |
+| Wheat x3, Egg, Sugar            | Pastry Dough  |
+| Milk Bucket, Sugar, Cocoa Beans | Chocolate     |
+| Egg, Chocolate                  | Chocolate Egg |
+
+</details>
+
+<details>
+<summary><strong>Cookies</strong></summary>
+
+| Ingredients                     | Result                |
+|---------------------------------|-----------------------|
+| Plain Cookie, Sugar, Red Dye    | Candy Cane Cookie     |
+| Plain Cookie, Sugar, Green Dye  | Christmas Tree Cookie |
+| Plain Cookie, Sugar, Lime Dye   | Creeper Cookie        |
+| Plain Cookie, Sugar, White Dye  | Egg Cookie            |
+| Plain Cookie, Sugar, Orange Dye | Pumpkin Cookie        |
+| Plain Cookie, Sugar, Yellow Dye | Star Cookie           |
+| Plain Cookie, Sugar, Cyan Dye   | Sword Cookie          |
+
+</details>
 
 ### Furnace/Campfire
+
+<details>
+<summary><strong>General</strong></summary>
+
 | Input        | Result       |
 |--------------|--------------|
 | Dough        | Bread        |
 | Pastry Dough | Plain Cookie |
+
+</details>
 
 ## Roadmap
 
