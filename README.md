@@ -52,15 +52,13 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 
 ## Roadmap
 
-Clean up code/remove unused features; Have a good selection of simple foodstuffs to craft; Have bushes (strawberry, blueberry) fully implemented.
-
-pride cookie with all dyes, also chocolate cookie
+First release: Clean up code/remove unused features; Add pride cookie (all dyes), chocolate cookie, and strawberries and blueberries; Have bushes (strawberry, blueberry) fully implemented.
 
 snowball + sugar + milk + beetroot -> Beet Icecream (maybe also chocolate)
 
-pizza?
+pizza? muffins?
 
-If I found out how to make a "Pan" item return itself in recipes that use it, I could have this Pan item (stick + iron) used for certain recipes like Breaded Chicken (pan + egg + bread + chicken)...
+coffee bush, which gives you coffee... berries? that you smelt to get roasted coffee beans, that you can turn into coffee (that gives speed)
 
 pastry dough + sugar + beetroot -> Beet Cake (four slices)
 
