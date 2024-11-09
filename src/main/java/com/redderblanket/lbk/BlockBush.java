@@ -3,7 +3,10 @@ package com.redderblanket.lbk;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.sound.SoundCategory;
@@ -18,13 +21,26 @@ import net.minecraft.world.World;
 
 public class BlockBush extends Block {
 
+    private Item droppedItem;
+
     // Block-states tutorial https://docs.fabricmc.net/develop/blocks/blockstates
     public static final BooleanProperty FRUITING = BooleanProperty.of("fruiting");
 
     public BlockBush() {
-        super(AbstractBlock.Settings.create().sounds(BlockSoundGroup.CROP).ticksRandomly());
+        super(
+                AbstractBlock.Settings.create()
+                        .sounds(BlockSoundGroup.CROP)
+                        .ticksRandomly()
+                        .nonOpaque()
+                        .requiresTool()
+                        .strength(0.2f, 0.2f)
+        );
 
         setDefaultState(getDefaultState().with(FRUITING, false));
+    }
+
+    protected void updateDroppedItem(Item droppedItem) {
+        this.droppedItem = droppedItem;
     }
 
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
@@ -43,11 +59,14 @@ public class BlockBush extends Block {
 
         if (player.getAbilities().allowModifyWorld && state.get(FRUITING)) {
 
+            // pick the bush
             world.setBlockState(pos, state.with(FRUITING, false));
 
+            // play leafy sound
             world.playSound(player, pos, SoundEvents.BLOCK_CROP_BREAK, SoundCategory.BLOCKS, 1.0F, 1.0F);
 
-            // TODO drop fruit item, which should be initialized in constructor
+            // drop 1-3 droppedItem
+            world.spawnEntity(new ItemEntity(world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(droppedItem, (int) (Math.random() * 3) + 1)));
 
             return ActionResult.SUCCESS;
         }

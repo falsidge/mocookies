@@ -28,7 +28,7 @@ public class EntrypointMain implements ModInitializer {
 		// Initialize item group (creative tab).
 		Registry.register(Registries.ITEM_GROUP, CREATIVE_TAB,
 				FabricItemGroup.builder()
-					.icon(() -> new ItemStack(ModItems.BURGER))
+					.icon(() -> new ItemStack(ModItems.STRAWBERRY))
 					.displayName(Text.translatable("item_group." + MOD_ID))
 					.build()
 		);

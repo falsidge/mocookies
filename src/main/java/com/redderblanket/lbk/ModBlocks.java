@@ -11,9 +11,11 @@ import net.minecraft.registry.Registry;
 public class ModBlocks {
 
     public static final Block BUSH_STRAWBERRY = register(new BlockBush(), "bush_strawberry");
+    public static final Block BUSH_BLUEBERRY = register(new BlockBush(), "bush_blueberry");
 
     public static void init() {
-
+        ((BlockBush) BUSH_STRAWBERRY).updateDroppedItem(ModItems.STRAWBERRY);
+        ((BlockBush) BUSH_BLUEBERRY).updateDroppedItem(ModItems.BLUEBERRY);
     }
 
     private static Block register(Block block, String name) {

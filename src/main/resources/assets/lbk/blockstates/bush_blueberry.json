@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "fruiting=false": { "model": "lbk:block/bush_blueberry" },
+    "fruiting=true": { "model": "lbk:block/bush_blueberry_fruiting" }
+  }
+}
