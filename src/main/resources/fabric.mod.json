@@ -3,11 +3,11 @@
 	"id": "lbk",
 	"version": "${version}",
 	"name": "Lil' Block Kitchen",
-	"description": "New cooking recipes for people who hate steak being the best food in the game.",
+	"description": "New cooking recipes!",
 	"authors": [ "redderblanket" ],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/BlueBunnex/lil-block-kitchen"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/lbk/icon.png",

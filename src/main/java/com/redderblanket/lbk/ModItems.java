@@ -39,13 +39,20 @@ public class ModItems {
     public static final Item DOUGH = register(new Item(new Item.Settings().maxCount(64)), "dough");
     public static final Item PASTRY_DOUGH = register(new Item(new Item.Settings().maxCount(64)), "pastry_dough");
 
-    public static final Item CHOCOLATE = registerFood("chocolate", 2, 6);
-    public static final Item CHOCOLATE_EGG = registerFood("chocolate_egg", 4, 6);
+    public static final Item CHOCOLATE = registerFood("chocolate", 4, 8);
+    public static final Item CHOCOLATE_EGG = registerFood("chocolate_egg", 6, 10);
 
     public static final Item STRAWBERRY = registerFood("strawberry", 2, 0.8f);
     public static final Item BLUEBERRY = registerFood("blueberry", 2, 0.8f);
 
+    /*
+     * Cookies!
+     */
+    // regular
     public static final Item COOKIE_PLAIN          = registerFood("cookie_plain", 4, 8);
+    public static final Item COOKIE_CHOCOLATE      = registerFood("cookie_chocolate", 6, 10);
+
+    // design
     public static final Item COOKIE_CANDY_CANE     = registerFood("cookie_candy_cane", 6, 10);
     public static final Item COOKIE_CHRISTMAS_TREE = registerFood("cookie_christmas_tree", 6, 10);
     public static final Item COOKIE_CREEPER        = registerFood("cookie_creeper", 6, 10);
@@ -53,6 +60,10 @@ public class ModItems {
     public static final Item COOKIE_PUMPKIN        = registerFood("cookie_pumpkin", 6, 10);
     public static final Item COOKIE_STAR           = registerFood("cookie_star", 6, 10);
     public static final Item COOKIE_SWORD          = registerFood("cookie_sword", 6, 10);
+
+    // super cookies (idk)
+    public static final Item COOKIE_TRANS          = registerFood("cookie_trans", 8, 12);
+    public static final Item COOKIE_HALFMOON       = registerFood("cookie_halfmoon", 8, 12);
 
     public static void init() {
 

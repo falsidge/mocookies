@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:white_dye" },
+    { "item": "minecraft:pink_dye" },
+    { "item": "minecraft:light_blue_dye" },
+    { "item": "lbk:cookie_plain" },
+    { "item": "minecraft:sugar" }
+  ],
+  "result": {
+    "id": "lbk:cookie_trans",
+    "count": 1
+  }
+}

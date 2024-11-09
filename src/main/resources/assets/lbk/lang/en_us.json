@@ -17,12 +17,16 @@
 
   "item.lbk.cookie_plain": "Plain Cookie",
   "item.lbk.cookie_candy_cane": "Candy Cane Cookie",
+  "item.lbk.cookie_chocolate": "Chocolate Cookie",
   "item.lbk.cookie_christmas_tree": "Christmas Tree Cookie",
   "item.lbk.cookie_creeper": "Creeper Cookie",
   "item.lbk.cookie_egg": "Egg Cookie",
   "item.lbk.cookie_pumpkin": "Pumpkin Cookie",
   "item.lbk.cookie_star": "Star Cookie",
   "item.lbk.cookie_sword": "Sword Cookie",
+
+  "item.lbk.cookie_trans": "Transgender Cookie",
+  "item.lbk.cookie_halfmoon": "Half Moon Cookie",
 
   "item_group.lbk": "Lil' Block Kitchen"
 }

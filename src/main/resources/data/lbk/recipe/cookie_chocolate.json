@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "lbk:cookie_plain" },
+    { "item": "lbk:chocolate" }
+  ],
+  "result": {
+    "id": "lbk:cookie_chocolate",
+    "count": 1
+  }
+}

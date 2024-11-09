@@ -26,15 +26,18 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 <details>
 <summary><strong>Cookies</strong></summary>
 
-| Ingredients                     | Result                |
-|---------------------------------|-----------------------|
-| Plain Cookie, Sugar, Red Dye    | Candy Cane Cookie     |
-| Plain Cookie, Sugar, Green Dye  | Christmas Tree Cookie |
-| Plain Cookie, Sugar, Lime Dye   | Creeper Cookie        |
-| Plain Cookie, Sugar, White Dye  | Egg Cookie            |
-| Plain Cookie, Sugar, Orange Dye | Pumpkin Cookie        |
-| Plain Cookie, Sugar, Yellow Dye | Star Cookie           |
-| Plain Cookie, Sugar, Cyan Dye   | Sword Cookie          |
+| Ingredients                                              | Result                |
+|----------------------------------------------------------|-----------------------|
+| Plain Cookie, Chocolate                                  | Chocolate Cookie      |
+| Plain Cookie, Sugar, Red Dye                             | Candy Cane Cookie     |
+| Plain Cookie, Sugar, Green Dye                           | Christmas Tree Cookie |
+| Plain Cookie, Sugar, Lime Dye                            | Creeper Cookie        |
+| Plain Cookie, Sugar, White Dye                           | Egg Cookie            |
+| Plain Cookie, Sugar, Orange Dye                          | Pumpkin Cookie        |
+| Plain Cookie, Sugar, Yellow Dye                          | Star Cookie           |
+| Plain Cookie, Sugar, Cyan Dye                            | Sword Cookie          |
+| Plain Cookie, Sugar, White Dye, Pink Dye, Light Blue Dye | Transgender Cookie    |
+| Plain Cookie, Sugar, Chocolate                           | Half Moon Cookie      |
 
 </details>
 
@@ -50,9 +53,11 @@ Made with love and [Fabric](https://fabricmc.net/wiki/tutorial:start).
 
 </details>
 
-## Roadmap
+## Bushes
 
-First release: Clean up code/remove unused features; Add pride cookie (all dyes), chocolate cookie, and strawberries and blueberries; Have bushes (strawberry, blueberry) fully implemented.
+Though currently unobtainable, there are bushes for strawberries and blueberries.
+
+## Roadmap
 
 snowball + sugar + milk + beetroot -> Beet Icecream (maybe also chocolate)
 
