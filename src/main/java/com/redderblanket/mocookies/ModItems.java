@@ -15,8 +15,9 @@ public class ModItems {
         addToCreativeTab(Registries.ITEM.get(Identifier.of("minecraft", "cookie")));
     }
 
-    public static final Item COOKIE_SUGAR = registerFood("cookie_sugar", 2, 0.4f);
     public static final Item COOKIE_CHOCOLATE = registerFood("cookie_chocolate", 2, 0.4f);
+    public static final Item COOKIE_GOLDEN = registerFood("cookie_golden", 2, 20f);
+    public static final Item COOKIE_SUGAR = registerFood("cookie_sugar", 2, 0.4f);
     public static final Item COOKIE_HALF_MOON = registerFood("cookie_half_moon", 2, 0.4f);
 
     public static void init() {}
