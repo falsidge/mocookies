@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "fruiting=false": { "model": "lbk:block/bush_strawberry" },
-    "fruiting=true": { "model": "lbk:block/bush_strawberry_fruiting" }
-  }
-}
