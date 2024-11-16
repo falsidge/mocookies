@@ -15,3 +15,15 @@ Currently there are:
 - Half Moon Cookies
 
 ![alt text](preview.png)
+
+## Planned
+
+- pinwheel cookie
+- thumbprint cookie
+- stroopwafel cookie
+- jam sandwich cookie
+- toothpaste oreo cookie (yup)
+- chocolate macaron cookie = (chocolate + milk + egg + sugar)
+- rosewater macaron cookie
+- sweet berry macaron cookie
+- glow berry macaron cookie
