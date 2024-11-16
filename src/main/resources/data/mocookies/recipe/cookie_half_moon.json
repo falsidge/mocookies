@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     { "item": "minecraft:wheat" },
-    { "item": "minecraft:cocoa_beans" },
+    { "item": "minecraft:sugar" },
     { "item": "minecraft:cocoa_beans" }
   ],
   "result": {
-    "id": "mocookies:cookie_chocolate",
+    "id": "mocookies:cookie_half_moon",
     "count": 1
   }
 }

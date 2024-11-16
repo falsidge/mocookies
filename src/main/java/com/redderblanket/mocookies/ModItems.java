@@ -12,24 +12,20 @@ public class ModItems {
     static {
 
         // add the default cookie
-        ItemGroupEvents.modifyEntriesEvent(EntrypointMain.CREATIVE_TAB).register(
-                itemGroup -> itemGroup.add(
-                        Registries.ITEM.get(Identifier.of("minecraft", "cookie"))
-                )
-        );
+        addToCreativeTab(Registries.ITEM.get(Identifier.of("minecraft", "cookie")));
     }
 
-    // sugar, chocolate, half moon, jam sandwich, wafer?, toothpaste oreo?
+    // sugar, jam sandwich, wafer?, toothpaste oreo?
 
-    public static final Item COOKIE_CHOCOLATE = registerFood("cookie_chocolate", 1, 0.6f);
-    public static final Item COOKIE_HALF_MOON = registerFood("cookie_half_moon", 1, 0.6f);
+    public static final Item COOKIE_CHOCOLATE = registerFood("cookie_chocolate", 2, 0.4f);
+    public static final Item COOKIE_HALF_MOON = registerFood("cookie_half_moon", 2, 0.4f);
 
     public static void init() {}
 
     private static Item registerFood(String stringID, int nutrition, float saturation) {
 
         // steak gives 8 nutrition and 12.8 saturation
-        // sweet berry gives 2 nutrition and 0.4 saturation
+        // cookies gives 2 nutrition and 0.4 saturation
         return register(
             new Item(
                 new Item.Settings()
@@ -54,9 +50,14 @@ public class ModItems {
         Registry.register(Registries.ITEM, itemID, item);
 
         // Add registered item to dedicate creative mode tab.
-        ItemGroupEvents.modifyEntriesEvent(EntrypointMain.CREATIVE_TAB).register(itemGroup -> itemGroup.add(item));
+        addToCreativeTab(item);
 
         return item;
+    }
+
+    private static void addToCreativeTab(Item item) {
+
+        ItemGroupEvents.modifyEntriesEvent(EntrypointMain.CREATIVE_TAB).register(itemGroup -> itemGroup.add(item));
     }
 
 }
