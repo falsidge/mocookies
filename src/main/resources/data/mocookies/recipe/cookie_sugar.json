@@ -3,10 +3,10 @@
   "ingredients": [
     { "item": "minecraft:wheat" },
     { "item": "minecraft:sugar" },
-    { "item": "minecraft:cocoa_beans" }
+    { "item": "minecraft:sugar" }
   ],
   "result": {
-    "id": "mocookies:cookie_half_moon",
+    "id": "mocookies:cookie_sugar",
     "count": 8
   }
 }
