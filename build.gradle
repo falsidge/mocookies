@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"lil-block-kitchen" {
+		"mocookies" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
