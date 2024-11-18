@@ -20,7 +20,6 @@ Currently there are:
 
 - pinwheel cookie
 - thumbprint cookie
-- stroopwafel cookie
 - jam sandwich cookie
 - toothpaste oreo cookie (yup)
 - chocolate macaron cookie = (chocolate + milk + egg + sugar)

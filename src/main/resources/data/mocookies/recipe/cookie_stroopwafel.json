@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:wheat" },
+    { "item": "minecraft:egg" },
+    { "item": "minecraft:milk_bucket" },
+    { "item": "mocookies:caramel" }
+  ],
+  "result": {
+    "id": "mocookies:cookie_stroopwafel",
+    "count": 8
+  }
+}
