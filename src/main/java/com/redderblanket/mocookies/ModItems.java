@@ -20,6 +20,8 @@ public class ModItems {
     public static final Item COOKIE_SUGAR = registerFood("cookie_sugar", 2, 0.4f);
     public static final Item COOKIE_HALF_MOON = registerFood("cookie_half_moon", 2, 0.4f);
     public static final Item COOKIE_STROOPWAFEL = registerFood("cookie_stroopwafel", 2, 0.4f);
+    public static final Item COOKIE_MACARON_CHOCOLATE = registerFood("cookie_macaron_chocolate", 2, 0.4f);
+    public static final Item COOKIE_MACARON_ROSEWATER = registerFood("cookie_macaron_rosewater", 2, 0.4f);
 
     public static final Item CARAMEL = registerFood("caramel", 2, 0.4f);
 

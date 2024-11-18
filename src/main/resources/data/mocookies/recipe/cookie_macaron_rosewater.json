@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:rose_bush" },
+    { "item": "minecraft:milk_bucket" },
+    { "item": "minecraft:egg" },
+    { "item": "minecraft:sugar" }
+  ],
+  "result": {
+    "id": "mocookies:cookie_macaron_rosewater",
+    "count": 8
+  }
+}

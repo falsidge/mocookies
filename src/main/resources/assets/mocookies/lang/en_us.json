@@ -1,9 +1,11 @@
 {
   "item.mocookies.cookie_sugar": "Sugar Cookie",
   "item.mocookies.cookie_chocolate": "Chocolate Cookie",
+  "item.mocookies.cookie_golden": "Golden Cookie",
   "item.mocookies.cookie_half_moon": "Half Moon Cookie",
   "item.mocookies.cookie_stroopwafel": "Stroopwafel Cookie",
-  "item.mocookies.cookie_golden": "Golden Cookie",
+  "item.mocookies.cookie_macaron_chocolate": "Chocolate Macaron Cookie",
+  "item.mocookies.cookie_macaron_rosewater": "Rosewater Macaron Cookie",
 
   "item.mocookies.caramel": "Caramel",
 

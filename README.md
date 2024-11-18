@@ -15,6 +15,7 @@ Currently in the mod:
 - Sugar Cookie
 - Half Moon Cookie
 - Stroopwafel Cookie
+- Macaron Cookie (Chocolate, Rosewater)
 
 Also:
 - Caramel
@@ -27,4 +28,4 @@ Also:
 - thumbprint cookie
 - jam sandwich cookie
 - toothpaste oreo cookie (yup)
-- macaron cookie (chocolate, caramel, rosewater, sweet berry, glow berry) = (FLAVOUR + milk + egg + sugar)
+- macaron cookie (caramel, sweet berry, glow berry) = (FLAVOUR + milk + egg + sugar)

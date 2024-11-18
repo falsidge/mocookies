@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:cocoa_beans" },
+    { "item": "minecraft:milk_bucket" },
+    { "item": "minecraft:egg" },
+    { "item": "minecraft:sugar" }
+  ],
+  "result": {
+    "id": "mocookies:cookie_macaron_chocolate",
+    "count": 8
+  }
+}
