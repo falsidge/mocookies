@@ -7,14 +7,19 @@ Yeah I know mods by this name already exist, I don't care. Internally `mocookies
 
 ## Content
 
-Currently there are:
+Currently in the mod:
 
-- Chocolate Chip Cookies (the Minecraft classic)
-- Sugar Cookies
-- Chocolate Cookies
-- Half Moon Cookies
+- Chocolate Chip Cookie (the Minecraft classic)
+- Chocolate Cookie
+- Golden Cookie (much saturation)
+- Sugar Cookie
+- Half Moon Cookie
+- Stroopwafel Cookie
 
-![alt text](preview.png)
+Also:
+- Caramel
+
+![A screenshot of some of the cookies in the mod inside of the creative inventory](preview.png)
 
 ## Planned
 
@@ -22,7 +27,4 @@ Currently there are:
 - thumbprint cookie
 - jam sandwich cookie
 - toothpaste oreo cookie (yup)
-- chocolate macaron cookie = (chocolate + milk + egg + sugar)
-- rosewater macaron cookie
-- sweet berry macaron cookie
-- glow berry macaron cookie
+- macaron cookie (chocolate, caramel, rosewater, sweet berry, glow berry) = (FLAVOUR + milk + egg + sugar)
